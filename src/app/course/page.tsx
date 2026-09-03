@@ -1,4 +1,3 @@
-import SectionTitle from "@/components/SectionTitle";
 import CourseCard from "@/components/CourseCard";
 import { courses } from "@/data/courses";
 
