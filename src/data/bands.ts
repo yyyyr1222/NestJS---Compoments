@@ -1,20 +1,49 @@
- 
- import type { Band } from "@/types/band";
+import type { Band } from "@/types/band";
 
 export const bands: Band[] = [
   {
     id: 1,
-    name: "TheFatRat",  
-    genre: "Electronic",
-    formedYear: 2000,
+    name: "Linkin Park",
+    genre: "Nu Metal / Alternative Rock",
+    formedYear: 1996,
     imageUrl: "/images/bands/band1.jpg",
-    description: "TheFatRat is a Dutch electronic music duo known for their energetic and melodic style.",
+    description: "Linkin Park is an American rock band from Agoura Hills, California, widely recognized for their influential blend of alternative rock, hip hop, and electronic elements.",
     members: [
       {
         id: 1,
-        name: "Christian Büttner",
-        role: "Producer / DJ",
-        imageUrl: "/images/bands/member/TheFatRat.jpg",
+        name: "Chester Bennington",
+        role: "Lead Vocalist",
+        imageUrl: "/images/bands/member/Chester Bennington.jpg",
+      },
+      {
+        id: 2,
+        name: "Mike Shinoda",
+        role: "Co-vocalist / Rhythm Guitar / Keyboards",
+        imageUrl: "/images/bands/member/Mike Shinoda.jpg",
+      },
+      {
+        id: 3,
+        name: "Brad Delson",
+        role: "Lead Guitarist",
+        imageUrl: "/images/bands/member/Brad Delson.jpg",
+      },
+      {
+        id: 4,
+        name: "Dave 'Phoenix' Farrell",
+        role: "Bassist",
+        imageUrl: "/images/bands/member/Dave Phoenix Farrell.jpg",
+      },
+      {
+        id: 5,
+        name: "Joe Hahn",
+        role: "Turntablist / Samples / Programming",
+        imageUrl: "/images/bands/member/Joe Hahn.jpg",
+      },
+      {
+        id: 6,
+        name: "Rob Bourdon",
+        role: "Drummer",
+        imageUrl: "/images/bands/member/Rob Bourdon.jpg",
       },
     ],
   },
@@ -60,17 +89,41 @@ export const bands: Band[] = [
   },
   {
     id: 3,
-    name: "Adele",
-    genre: "Pop / Soul",
-    formedYear: 2006,
+    name: "Bodyslam",
+    genre: "Rock / Alternative Rock",
+    formedYear: 2002,
     imageUrl: "/images/bands/band3.jpg",
-    description: "Adele is an English singer-songwriter known for her powerful mezzo-soprano vocals and sentimental ballads.",
+    description: "Bodyslam is a prominent Thai rock band known for their energetic live performances, profound philosophical lyrics, and stadium-filling anthems.",
     members: [
       {
         id: 1,
-        name: "Adele Laurie Blue Adkins",
-        role: "Lead Vocalist / Songwriter",
-        imageUrl: "/images/bands/member/adele_member.jpg",
+        name: "Toon (Artiwara Kongmalai)",
+        role: "Lead Vocalist / Rhythm Guitar",
+        imageUrl: "/images/bands/member/Toon.jpg",
+      },
+      {
+        id: 2,
+        name: "Yod (Thanachai Tantrakul)",
+        role: "Lead Guitarist",
+        imageUrl: "/images/bands/member/Yod.jpg",
+      },
+      {
+        id: 3,
+        name: "Pid (Thanadol Changsawek)",
+        role: "Bassist",
+        imageUrl: "/images/bands/member/Pid.jpg",
+      },
+      {
+        id: 4,
+        name: "Chad (Chad Wachisunthorn)",
+        role: "Drummer",
+        imageUrl: "/images/bands/member/Chad.jpg",
+      },
+      {
+        id: 5,
+        name: "Ohm (Ohm Plengkhum)",
+        role: "Keyboardist / Synthesizer",
+        imageUrl: "/images/bands/member/Ohm.jpg",
       },
     ],
   },
