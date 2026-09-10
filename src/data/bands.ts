@@ -6,7 +6,7 @@ export const bands: Band[] = [
     name: "Linkin Park",
     genre: "Nu Metal / Alternative Rock",
     formedYear: 1996,
-    imageUrl: "/images/bands/band1.jpg",
+    imageUrl: "/images/bands/band1.1.jpg",
     description: "Linkin Park is an American rock band from Agoura Hills, California, widely recognized for their influential blend of alternative rock, hip hop, and electronic elements.",
     members: [
       {
@@ -92,7 +92,7 @@ export const bands: Band[] = [
     name: "Bodyslam",
     genre: "Rock / Alternative Rock",
     formedYear: 2002,
-    imageUrl: "/images/bands/band3.jpg",
+    imageUrl: "/images/bands/band3.1.jpg",
     description: "Bodyslam is a prominent Thai rock band known for their energetic live performances, profound philosophical lyrics, and stadium-filling anthems.",
     members: [
       {
